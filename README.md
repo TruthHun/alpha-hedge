@@ -1,6 +1,7 @@
 # alpha对冲(股票+期货)
 量化交易经典策略：alpha对冲(股票+期货) ，利用股指期货进行对冲的股票策略
 
+## 源码
 ```python
 # coding=utf-8
 from __future__ import print_function, absolute_import, unicode_literals
@@ -90,3 +91,6 @@ if __name__ == '__main__':
         backtest_commission_ratio=0.0001,
         backtest_slippage_ratio=0.0001)
 ```
+
+## 绩效
+![绩效](attach.png)
